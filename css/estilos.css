@@ -172,30 +172,43 @@
 
 /* ------------------------------------------------------ */
 
-/* -----------     SERVICIOS     ------------ */
+/* -----------     SERVICIOS  PORTAFOLIO   ------------ */
 
 /* ------------------------------------------------------ */
 
 
 
 
-
-.servicios{
-    background-color: rgb(133, 202, 77);
-}
-
-.divservicios{
-    background-color: red;
-}
-
-.roe{
-    background-color: rgb(252, 182, 231);
+.row{
+    background-color: #227DB6;
+    padding: 20px;
 }
 
 
 .row i{
     font-size: 55px;
+    color: white;
 }
+
+.row h3{
+    color: white;
+    text-align: center;
+    margin: 25px 0 15px 0;
+    font-weight:300;
+    padding: 20px;
+    border: solid white;
+}
+
+.row h4{
+    color: white;
+}
+.row p{
+    color: white;
+}
+
+
+
+
 
 /* ------------------------------------------------------ */
 
@@ -300,8 +313,6 @@ i{
     display: flex;
     justify-content: center;
 }
-
-
 
 
 
@@ -471,6 +482,9 @@ i{
 
 @media all and (max-width: 900px){
 
+    .divfooter{
+        width:100%
+    }
 
     .section{
         flex-direction: column;
@@ -526,6 +540,10 @@ i{
 
 @media all and (max-width: 600px){
 
+    .divfooter{
+        width:100%
+    }
+
     .article{
         flex-direction: column;
     }
@@ -579,6 +597,9 @@ i{
 
 @media all and (max-width: 450px){
 
+    .divfooter{
+        width:100%
+    }
 
         /* PORTAFOLIO */
     .h1galeria{
