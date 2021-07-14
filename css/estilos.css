@@ -399,7 +399,7 @@
 
 @media all and (max-width: 600px){
 
-    .articules{
+    .article{
         flex-direction: column;
     }
 
@@ -407,7 +407,7 @@
         margin: 20px 20px;
     }
 
-    .articules{
+    .article{
         width:90%
     }
 
@@ -448,7 +448,7 @@
 
 @media all and (max-width: 360px){
 
-    .articules{
+    .article{
         flex-direction: column;
     }
 
@@ -468,13 +468,10 @@
         margin: 10px;
     }
 
-    .articules{
+    .article{
         width:100%
     }
 
-    .article{
-        width: 100%;
-    }
 
 }
 
